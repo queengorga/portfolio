@@ -1,0 +1,46 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/image1.jpg');
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar 
+{
+    list-style: none; 
+    margin-top: 30px;
+}
+
+#navbar li
+{
+    display: inline-block;
+    position: relative;
+    float: right;
+   direction: rtl;
+}
+
+#navbar li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: 'Markazi Text', serif !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo img
+{
+    padding: 25px;
+    width: 150px;
+    height: auto;
+}
