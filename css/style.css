@@ -6,7 +6,7 @@
 
 header
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/image1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../img/image5.jpg');
     height: 100vh;
     background-size: cover; 
     background-position: center;
@@ -17,30 +17,47 @@ header
 #navbar 
 {
     list-style: none; 
-    margin-top: 30px;
+}
+
+#navbar ul
+{
+    text-align: right;
+    margin-top: -115px; 
+    margin-right: 50px;  
 }
 
 #navbar li
 {
-    display: inline-block;
-    position: relative;
-    float: right;
-   direction: rtl;
+    display: inline; 
+    margin-right: 10px;
 }
 
 #navbar li a
 {
   color: white;
   text-decoration: none;
-  padding: 5px 20px;
-  font-family: 'Markazi Text', serif !important;
-  font-size: 30px;
+  padding: 5px 15px;
+  font-family: 'Lora', serif;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .logo img
 {
     padding: 25px;
-    width: 150px;
+    width: 125px;
     height: auto;
+}
+
+#welcome-section h1
+{
+    text-align: center; 
+    font-family: 'Ruthie', cursive;
+    font-size: 150px; 
+    font-weight: lighter;
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
