@@ -6,7 +6,7 @@
 
 header
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../img/image5.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../img/welcome.jpg');
     height: 100vh;
     background-size: cover; 
     background-position: center;
@@ -38,7 +38,7 @@ header
   text-decoration: none;
   padding: 5px 15px;
   font-family: 'Lora', serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -67,29 +67,29 @@ header
 {
     text-align: center;
     font-family: 'Ruthie', cursive;
-    font-size: 150px;
+    font-size: 10vw;
     font-weight: lighter;
     color: white;
     position: absolute;
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 #welcome-section h2
 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: bold;
     color: white;
     position: absolute;
     top: 60%;
-    left: 39%;
+    left: 41%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -101,30 +101,29 @@ header
 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 25px;
+    font-size: 1.75vw;
     font-weight: bold;
     color: white;
     position: absolute;
     top: 65%;
-    left: 50.9%;
+    left: 52.75%;
     transform: translate(-50%, -50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 #welcome-section button
 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: bold;
-    color: white; 
+    color: white;
     background-color: transparent;
-    position: absolute;
-    top: 73%;
-    left: 25.9%;
+    top: 440px;
+    left: 400px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -132,6 +131,8 @@ header
     -o-transform: translate(-50%, -50%);
     border: 1.5px solid white;
     border-radius: 40px;
+    position: relative;
+    display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
     margin-left: 175px;
@@ -150,6 +151,10 @@ header
   color: black;
   border: 1.5px solid black;
   transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
 }
 
 
@@ -171,10 +176,10 @@ header
  height: 350px;
  border: 10px solid gold;
  border-radius: 50%;
- -webkit-border-radius:;
- -moz-border-radius:;
- -ms-border-radius:;
- -o-border-radius:;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
 }
 
 #about-me h1
@@ -191,6 +196,7 @@ header
 {
     margin: 10px 10px; 
     padding: 20px 80px; 
+    text-overflow: clip;
 }
 
 #about-me .column2 p
@@ -217,10 +223,10 @@ header
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 #about-me .button a
@@ -244,29 +250,79 @@ header
 
 #projects 
 {
+    margin-top: 50px; 
     height: 100vh; 
-    box-sizing: border-box;
+    background-color: #efc2f3;
 }
 
 .project-tile
 {
-    margin: 20px; 
+    display: -ms-flexbox; 
+    -ms-flexbox-wrap: wrap; 
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex; 
+    padding: 5px 40px 20px 40px;    
 }
 
-.project-tile > .column 
+.project-title h1
+{ 
+    font-family: 'Lora', serif; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.project
 {
-    padding: 40px;
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin:1vw;
 }
 
-.column
+.project img
 {
-    width: 20%;
-    height: 20%;  
-    float: left;
+    margin-top: 100px;
+    width: 150%;
+    height: 80%;
+    transition: all .5s ease-in-out;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
 
-.column:after {
-    content: "";
-    display: table;
-    clear: both;
+.project img:hover
+{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
+
+.project h3
+{
+    font-family: 'Lora', serif;
+    font-size: 18px; 
+    font-weight: bolder;
+    padding: 5px 10px; 
+    margin: 10px 10px 10px 10px; 
+    text-align: center;
+}
+
+.project p
+{
+    font-family: 'Lora', serif;
+    font-size: 15px; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    margin: 10px 10px 10px 10px; 
+    text-align: center;
+}
+
+
