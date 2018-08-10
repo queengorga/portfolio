@@ -242,3 +242,31 @@ header
     -o-transition: all 0.5s ease-in;
 }
 
+#projects 
+{
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+.project-tile
+{
+    margin: 20px; 
+}
+
+.project-tile > .column 
+{
+    padding: 40px;
+}
+
+.column
+{
+    width: 20%;
+    height: 20%;  
+    float: left;
+}
+
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
