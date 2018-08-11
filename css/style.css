@@ -12,6 +12,7 @@ header
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 70px; 
 }
 
 #navbar 
@@ -59,10 +60,11 @@ header
 .logo img
 {
     padding: 25px;
-    width: 125px;
+    width: 120px;
     height: auto;
 }
 
+/* Home - Welcome Section */
 #welcome-section h1
 {
     text-align: center;
@@ -74,10 +76,10 @@ header
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 #welcome-section h2
@@ -114,7 +116,7 @@ header
     -o-transform: translate(-50%, -50%);
 }
 
-#welcome-section button
+#welcome-section button /* button links to contact section */
 {
     text-align: center;
     font-family: 'Lora', serif;
@@ -145,7 +147,7 @@ header
     -o-border-radius: 40px;
 }
 
-#welcome-section button:hover
+#welcome-section button:hover 
 {
   background-color: gold;
   color: black;
@@ -157,12 +159,13 @@ header
   -o-transition: all 0.5s ease-in;
 }
 
-
+/* About Me Section */
 #about-me .container
 {
   color: black;
   height: 100vh;
   margin-top: 60px;
+  overflow:  hidden;
 }
 
 #about-me .about-left img
@@ -208,10 +211,10 @@ header
 }
 
 
-#about-me .button
+#about-me .button /* button links to downloadable CV */
 {
     margin-top: 15px;
-    margin-left: 802px;
+    margin-left: 825px; 
     width: 200px;
     border: 1.5px solid gold;
     border-radius: 40px;
@@ -222,6 +225,7 @@ header
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    position: relative;
     text-transform: uppercase;
     -webkit-border-radius:;
     -moz-border-radius:;
@@ -248,6 +252,7 @@ header
     -o-transition: all 0.5s ease-in;
 }
 
+/* Projects Section */
 #projects 
 {
     margin-top: 50px; 
@@ -263,8 +268,8 @@ header
     -webkit-flex-flow: row wrap; 
     flex-flow: row wrap;
     display: -webkit-box;
-    display: flex; 
-    padding: 5px 40px 20px 40px;    
+    display: flex;  
+    padding:   5px  40px 20px 40px;    
 }
 
 .project-title h1
@@ -310,21 +315,53 @@ header
 .project h3
 {
     font-family: 'Lora', serif;
-    font-size: 18px; 
+    font-size: 25px; 
     font-weight: bolder;
     padding: 5px 10px; 
     margin: 10px 10px 10px 10px; 
     text-align: center;
 }
 
-.project p
+/* Footer */
+
+footer .container p
 {
+    height: 35px; 
     font-family: 'Lora', serif;
-    font-size: 15px; 
-    font-weight: bold;
-    padding: 5px 10px; 
-    margin: 10px 10px 10px 10px; 
+    font-size: 18px;
+    font-weight: bolder; 
+    background-color: gold; 
+    color: black;
     text-align: center;
+    padding: 25px 25px 10px; 
 }
 
+.scroll-up button /* Scroll to top of the page*/
+{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: #cd42d9;
+    width: 75px;
+    height: 75px;
+    text-decoration: none;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    float: right;
+    text-align: center;
+    margin-top: -75px;
+    margin-right: 20px;
+}
+
+.scroll-up a:visited 
+{
+    text-decoration: none; 
+    decoration: none; 
+    color: inherit;
+}
 
