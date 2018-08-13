@@ -6,7 +6,7 @@
 
 header
 {
-    height: 15vh;
+    height: 14vh;
     min-height: 70px;  
     background:	#7c42d9;
     position: fixed; 
@@ -62,11 +62,11 @@ header
 .logo img
 {
     padding: 25px;
-    padding-top: 15px;
+    padding-top: 10px;
     width: 95px;
-    height: 85px;
+    height: 80px;
     margin-right: 1150px;
-    margin-left:-30px;
+    margin-left:-35px;
     -webkit-border-radius:55%;
     -moz-border-radius:55%;
     -ms-border-radius:55%;
@@ -190,15 +190,14 @@ header
 
 #about-me .container
 {
-  height: 80vh;
+  height: 100vh;
   overflow:  hidden;
 }
 
 #about-me .about-left img
 {
- margin-top: 150px;
+ margin-top: 185px;
  margin-left: 120px;
- margin-bottom: 50px;
  margin-right: 90px;
  float: left;
  width: 25vw;
@@ -217,6 +216,7 @@ header
   font-family: 'Lora', serif; 
   font-size: 45px;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -239,8 +239,8 @@ header
 #about-me .button /* button links to downloadable CV */
 {
     margin-top: 15px;
-    margin-left: 785px; 
-    width: 200px;
+    margin-left: 800px; 
+    width: 175px;
     border: 1.5px solid gold;
     border-radius: 40px;
     padding: 10px 30px;
@@ -278,10 +278,10 @@ header
 }
 
 /* Projects Section */
+
 #projects 
 {
-    margin-top: 50px; 
-    height: 90vh; 
+    height: 100vh; 
     background-color: #efc2f3;
 }
 
@@ -302,7 +302,7 @@ header
     font-family: 'Lora', serif; 
     font-size: 50px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .project
@@ -388,7 +388,7 @@ header
 {
     font-family: 'Lora', serif;
     font-size: 15px; 
-    color: gray;
+    color: lightgray;
 }
 input[type=text], textarea 
 {
@@ -441,14 +441,14 @@ input[type=submit]:hover {
 
 footer .container p
 {
-    height: 35px; 
+    height: 40px; 
     font-family: 'Lora', serif;
     font-size: 18px;
     font-weight: bolder; 
-    background-color: gold; 
-    color: black;
+    background-color: #7c42d9;
+    color: white;
     text-align: center;
-    padding: 25px 25px 10px; 
+    padding: 25px 25px 0px 10px; 
 }
 
 .scroll-up button /* Scroll to top of the page*/
@@ -457,7 +457,7 @@ footer .container p
     font-size: 20px;
     font-weight: bolder;
     color: white;
-    background-color: #cd42d9;
+    background-color: gold;
     width: 75px;
     height: 75px;
     text-decoration: none;
@@ -469,9 +469,50 @@ footer .container p
     -o-border-radius:;
     float: right;
     text-align: center;
-    margin-top: -105px;
+    margin-top: -55px;
     margin-right: 20px;
     cursor: pointer;
+}
+
+.social ul
+{
+    margin-top: -55px;
+    margin-left: 30px;
+}
+
+.social li
+{
+    display: inline; 
+}
+
+.social li a
+{
+    text-decoration: none;
+    float: left;
+}
+
+.social li a:visited
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.social img
+{
+    height: 40px; 
+    width: 40px;
+    padding: 5px;
+}
+
+.social img:hover
+{
+    cursor: pointer;
+    background: ivory;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .scroll-up button:hover
