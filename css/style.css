@@ -1,7 +1,7 @@
 * 
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 header
@@ -11,7 +11,7 @@ header
     background:	#7c42d9;
     position: fixed; 
     width: 100%;
-    z-index: 5000;
+    z-index: 1;
 }
 
 #navbar .container
@@ -23,7 +23,7 @@ header
 #navbar .container ul
 {
     text-align: right;
-    margin-top: -100px;
+    margin-top: -92px;
     padding-top: 15px;  
 }
 
@@ -57,15 +57,12 @@ header
     -moz-text-decoration-line: overline;
 }
 
-
-
 .logo img
 {
     padding: 25px;
     padding-top: 10px;
-    width: 95px;
-    height: 75px;
-    margin-right: 1150px;
+    width: 65px;
+    height: 55px;
     margin-left:-35px;
     -webkit-border-radius:55%;
     -moz-border-radius:55%;
@@ -89,7 +86,7 @@ header
 {
     text-align: center;
     font-family: 'Ruthie', cursive;
-    font-size: 10vw;
+    font-size: 10rem;
     font-weight: lighter;
     color: white;
     position: absolute;
@@ -111,7 +108,7 @@ header
     color: white;
     position: absolute;
     top: 60%;
-    left: 41%;
+    left: 40%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -123,17 +120,17 @@ header
 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 1.75vw;
+    font-size: 1.75rem;
     font-weight: bold;
     color: white;
-    position: relative;
+    position: absolute;
     top: 65%;
-    left: 52.75%;
+    left: 52.7%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 #welcome-section button /* button links to contact section */
@@ -144,13 +141,13 @@ header
     font-weight: bold;
     color: white;
     background-color: transparent;
-    top: 625px; 
-    left: 27%;
+    top: 525px;
+    left: 25.5%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
     border: 1.5px solid white;
     border-radius: 40px;
     position: relative;
@@ -190,13 +187,13 @@ header
 
 #about-me .container
 {
-  height: 80vh;
+  height: 100vh;
   overflow:  hidden;
 }
 
 #about-me .about-left img
 {
- margin-top: 145px;
+ margin-top: 185px;
  margin-left: 120px;
  margin-right: 90px;
  float: left;
@@ -215,7 +212,7 @@ header
   color: black;
   font-family: 'Lora', serif; 
   font-size: 45px;
-  text-align: center;
+  text-align: left;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -229,8 +226,8 @@ header
 #about-me .about-right p
 {
   font-size: 22px;
-  justify-content: right;
-  text-align: center;  
+  justify-content: center;
+  text-align: left;  
   margin-left: 100px;
   padding: 30px;  
 }
@@ -239,7 +236,7 @@ header
 #about-me .button /* button links to downloadable CV */
 {
     margin-top: 15px;
-    margin-left: 1040px;
+    margin-left: 525px;
     width: 175px;
     border: 1.5px solid gold;
     border-radius: 40px;
@@ -268,7 +265,7 @@ header
 {
     border: 1.5px solid black;
     color: black;
-    background-color: white; 
+    background-color: white;
     border-color: black;
     transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
@@ -281,7 +278,7 @@ header
 
 #projects 
 {
-    height: 80vh; 
+    height: 100vh; 
     background-color: #efc2f3;
 }
 
@@ -325,6 +322,10 @@ header
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 .project img:hover
@@ -357,11 +358,11 @@ header
 
 #contact .container
 {
-    height: 65vh;
+    height: 80vh;
     border-radius: 5px;
     padding: 20px;
     display: inline-grid;
-    margin: 50px 425px 50px 425px;
+    margin: 50px 250px 50px 250px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -469,7 +470,7 @@ footer .container p
     -o-border-radius:;
     float: right;
     text-align: center;
-    margin-top: -55px;
+    margin-top: -50px;
     margin-right: 20px;
     cursor: pointer;
 }
