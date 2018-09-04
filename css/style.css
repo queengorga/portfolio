@@ -6,7 +6,7 @@
 
 header
 {
-    height: 14vh;
+    height: 10vh;
     min-height: 70px;  
     background:	#7c42d9;
     position: fixed; 
@@ -64,7 +64,7 @@ header
     padding: 25px;
     padding-top: 10px;
     width: 95px;
-    height: 80px;
+    height: 75px;
     margin-right: 1150px;
     margin-left:-35px;
     -webkit-border-radius:55%;
@@ -144,8 +144,8 @@ header
     font-weight: bold;
     color: white;
     background-color: transparent;
-    top: 500px; 
-    left: 26%;
+    top: 625px; 
+    left: 27%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -190,7 +190,7 @@ header
 
 #about-me .container
 {
-  height: 100vh;
+  height: 80vh;
   overflow:  hidden;
 }
 
@@ -239,7 +239,7 @@ header
 #about-me .button /* button links to downloadable CV */
 {
     margin-top: 15px;
-    margin-left: 800px; 
+    margin-left: 1040px;
     width: 175px;
     border: 1.5px solid gold;
     border-radius: 40px;
@@ -252,10 +252,10 @@ header
     text-align: center;
     position: relative;
     text-transform: uppercase;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 #about-me .button a
@@ -281,7 +281,7 @@ header
 
 #projects 
 {
-    height: 100vh; 
+    height: 80vh; 
     background-color: #efc2f3;
 }
 
@@ -357,11 +357,11 @@ header
 
 #contact .container
 {
-    height: 75vh;
+    height: 65vh;
     border-radius: 5px;
     padding: 20px;
     display: inline-grid;
-    margin: 50px 300px 50px 300px;
+    margin: 50px 425px 50px 425px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
