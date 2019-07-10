@@ -188,10 +188,10 @@ header
  height: 20vw;
  border: 10px solid gold;
  border-radius: 50%;
- -webkit-border-radius:;
- -moz-border-radius:;
- -ms-border-radius:;
- -o-border-radius:;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
 }
 
 #about-me h1
@@ -266,7 +266,7 @@ header
 
 #projects 
 {
-    height: 100vh; 
+    height: 80vh; 
     background-color: #efc2f3;
 }
 
@@ -346,30 +346,29 @@ header
 
 #contact .container
 {
-    height: 80vh;
-    border-radius: 5px;
+    height: 55vh;
     padding: 20px;
     display: inline-grid;
-    margin: 50px 250px 50px 250px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    transform: translate(175%, 0%);
+    -webkit-transform: translate(175%, 0%);
+    -moz-transform: translate(175%, 0%);
+    -ms-transform: translate(175%, 0%);
+    -o-transform: translate(175%, 0%);
 }
 
-#contact .container h1
+#contact h1
 {
     font-family: 'Lora', serif;
-    font-size: 35px; 
+    font-size: 50px; 
     text-align: center;
-    padding-top: 5px; 
+    padding-top: 50px; 
     margin-bottom: 30px; 
 }
 
 #contact .container label
 {
     font-family: 'Lora', serif;
-    font-size: 20px; 
+    font-size: 18px; 
     font-weight: bolder;
 }
 
@@ -381,7 +380,7 @@ header
 }
 input[type=text], textarea 
 {
-    width: 100%;
+    width: 150%;
     padding: 14px;
     border: 1px solid black;
     border-radius: 4px;
@@ -445,12 +444,12 @@ footer .container p
     font-family: 'Lora', serif;
     font-size: 20px;
     font-weight: bolder;
-    color: white;
+    color: black;
     background-color: gold;
     width: 75px;
     height: 75px;
     text-decoration: none;
-    border: 1.5px solid white;
+    border: 2px solid #7c42d9;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;

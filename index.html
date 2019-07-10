@@ -100,17 +100,19 @@
     </section>
 
     <section id="contact">
+        <h1>Contact</h1>
         <div class="container">
-            <h1>Contact</h1>
+            
             <form method="post" action="mailto:vickmae.allen@gmail.com">
 
                 <label for="name">Name</label>
                 <input type="text" required maxlength="12" id="name" name="username" placeholder="Thor Odinson">
-            
+                 <br>
                 <label for="last-name">Email Address</label>
                 <input type="text" required pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"id="email" name="emailad" placeholder="godofthunder@avengers.com">
-            
+                <br>
                 <label for="message">Message</label>
+                <br>
                 <textarea id="message" required minlength="20" maxlength="1000" name="umessage" placeholder="No, I don't have a phone but you could send me an electronic letter. I'll reply as soon as I'm done with my recent great conquest." style="height:200px"></textarea>
             
                 <input type="submit" value="Submit">
