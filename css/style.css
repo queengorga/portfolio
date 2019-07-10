@@ -6,7 +6,7 @@
 
 header
 {
-    height: 10vh;
+    height: 8vh;
     min-height: 70px;  
     background:	#7c42d9;
     position: fixed; 
@@ -23,23 +23,22 @@ header
 #navbar .container ul
 {
     text-align: right;
-    margin-top: -92px;
+    margin-top: -85px;
     padding-top: 15px;  
 }
 
 #navbar li
 {
     display: inline;
-    margin-right: 25px;
+    margin-right: 55px;
 }
 
 #navbar li a
 {
   color: ivory;
   text-decoration: none;
-  padding: 5px 15px;
   font-family: 'Lora', serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -61,20 +60,16 @@ header
 {
     padding: 25px;
     padding-top: 10px;
-    width: 65px;
-    height: 55px;
+    width: 55px;
+    height: 50px;
     margin-left:-35px;
-    -webkit-border-radius:55%;
-    -moz-border-radius:55%;
-    -ms-border-radius:55%;
-    -o-border-radius:55%;
 }
 
 /* Home - Welcome Section */
 
 #welcome-section .container
 {    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../img/welcome.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../img/welcome.jpg');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -107,13 +102,8 @@ header
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    top: 56%;
+    left: 41%;
 }
 
 #welcome-section h3
@@ -124,13 +114,8 @@ header
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 65%;
-    left: 52.7%;
-    transform: translate(-50%, -50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    top: 62%;
+    left: 33%;
 }
 
 #welcome-section button /* button links to contact section */
@@ -141,13 +126,13 @@ header
     font-weight: bold;
     color: white;
     background-color: transparent;
-    top: 525px;
-    left: 25.5%;
+    top: 670px;
+    left: 41%;
     transform: translate(-50%, -50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     border: 1.5px solid white;
     border-radius: 40px;
     position: relative;
@@ -157,6 +142,8 @@ header
     margin-left: 175px;
     font-size: 16px;
     font-weight: bold;
+    width: 200px;
+    height: 50px;
     text-transform: uppercase;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -187,17 +174,17 @@ header
 
 #about-me .container
 {
-  height: 100vh;
+  height: 80vh;
   overflow:  hidden;
 }
 
 #about-me .about-left img
 {
- margin-top: 185px;
- margin-left: 120px;
+ margin-top: 165px;
+ margin-left: 250px;
  margin-right: 90px;
  float: left;
- width: 25vw;
+ width: 20vw;
  height: 20vw;
  border: 10px solid gold;
  border-radius: 50%;
@@ -213,7 +200,7 @@ header
   font-family: 'Lora', serif; 
   font-size: 45px;
   text-align: left;
-  margin-top: 50px;
+  padding-top: 80px;
   margin-bottom: 30px;
 }
 
@@ -225,23 +212,24 @@ header
 
 #about-me .about-right p
 {
-  font-size: 22px;
+  font-size: 1.25rem;
   justify-content: center;
-  text-align: left;  
+  text-align: left justify;  
   margin-left: 100px;
-  padding: 30px;  
+  margin-right: 100px;
+  padding: 20px;  
 }
 
 
 #about-me .button /* button links to downloadable CV */
 {
     margin-top: 15px;
-    margin-left: 525px;
+    margin-left: 650px;
     width: 175px;
     border: 1.5px solid gold;
     border-radius: 40px;
     padding: 10px 30px;
-    color: white;
+    color: black;
     background-color: gold;
     text-decoration: none;
     font-size: 16px;
@@ -464,10 +452,10 @@ footer .container p
     text-decoration: none;
     border: 1.5px solid white;
     border-radius: 50px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
     float: right;
     text-align: center;
     margin-top: -50px;
@@ -538,7 +526,6 @@ footer .container p
 .scroll-up a:visited 
 {
     text-decoration: none; 
-    decoration: none; 
     color: inherit;
 }
 
